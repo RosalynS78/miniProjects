@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --main-bg: #f8f8f8;
+    --box-bg: #fff;
+    --name-color: #232323;
+    --card-bg-text: #343434;
+}
+.dark:root {
+    --main-bg: #131313;
+    --box-bg: #232323;
+    --name-color: #f8f8f8;
+    --card-bg-text: #fff;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--main-bg);
+}
