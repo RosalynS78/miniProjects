@@ -1,10 +1,14 @@
+.nav-container {
+    background-color: gray;
+    
+}
 .navbar {
     display: flex;
    justify-content: flex-end;
     flex-wrap:  wrap;
     list-style: none;
     padding-right: 80px;
-    margin-top: 40px; 
+    margin-top: 40px;  
     text-indent: 40px;
     font-family: "Libre Caslon Text", serif;
     font-weight: 400;
