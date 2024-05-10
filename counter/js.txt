@@ -1,0 +1,31 @@
+Definition -
+javascript dom - document object model - is a programming interface for web documents. It represents the structure of a web page as a tree-like structure, where each node represents an element, attribute, or piece of text in the document. The DOM allows javascript to interact with and manipulate the contents, structure, and style of web pages dynamically. The
+
+What -
+access any element in an html document and manipulate its content, attributes, or styling. The
+
+add or remove elements and attributes dynamically. The
+
+respond to user events such as clicks, ouse movements, and keyboard inputs.
+
+modify the style and layout of elements on the page.
+
+Access -
+accessing elements in the DOM is fundamental in javascript for interacting with web pages.
+
+ex. -
+getElementById(): This method retrieves an element from the document by its ID attribute
+    var element = document.getElementById("myElementId");
+
+getElementByClassName(): This method returns a collection of elements with the given class name
+    var elements = document.getElementsByClassName("myClassName");
+
+getElementByTagName(): This method returns a collection of elements with the given tag name
+    var elements = document.getElementsByTagName("div");
+
+querySelector(): This method returns the first element that matches a specified CSS selector
+    var element = document.querySelector(".mySelector");
+
+querySelectorAll(): This method returns a static (non-live) NodeList representing a list of elements that match the specified group of selectors.
+
+    var elements = document.querySelectorAll("div.myClass");

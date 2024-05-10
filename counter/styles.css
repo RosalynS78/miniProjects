@@ -64,7 +64,8 @@ body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
   color: var(--clr-grey-1);
-  line-height: 1.5;
+  /* spacing between */
+  line-height: 2.5;
   font-size: 0.875rem;
 }
 ul {
@@ -178,7 +179,18 @@ main {
   border-radius: var(--radius);
   margin: 0.5rem;
 }
-.btn:hover {
+
+.decrease:hover {
+  color: var(--clr-white);
+  background: var(--clr-red-dark);
+}
+
+.increase:hover {
+  color: var(--clr-white);
+  background: var(--clr-green-dark);
+}
+
+.reset:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
